@@ -1,0 +1,150 @@
+/* Created by
+author name: Yordan Kovachev
+author id: abdt361
+date created: 02/2012
+*/
+
+@charset "UTF-8";
+
+body {
+	background-color: #FECCFD;
+	background-image: url(../Images/bgImage.jpg);
+	background-repeat: repeat-x;
+}
+
+#formWrap {
+	width:720px;
+	margin-top:30px;
+	margin-bottom:30px;
+	margin-left:auto;
+	margin-right:auto;
+	border:10px solid #F1F1F1;
+	-moz-boarder-radius:20px;
+	-moz-border-shadow:2px 2px 5px #999;
+	-webkit-boarder-radius:20px;
+	-webkit-border-shadow:2px 2px 5px #999;
+	border-radius:10px 10px 10px 10px;
+	padding:16px 10px 40px;
+	
+}
+body h2 {
+	font-family:Arial, Helvetica, sans-serif;
+	text-shadow:1px 1px 1px #CCC;
+	color:#033;
+	margin-left:25px;
+}
+
+#formWrap #form {
+	border-top:1px solid #EEE;
+	width: 720px;
+	
+}
+
+#form .row {
+	border-bottom: 1px dotted #EEE;
+	display:block;
+	line-hight:38px;
+	overflow:auto;
+	padding:24px 0px;
+	width:100%;
+	
+}
+
+#form .row .label {
+	font-size:16px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	width:180px;
+	text-align:right;
+	float:left;
+	padding-right:10px;
+	margin-right:10px;
+	
+	
+}
+
+#form .row .input {
+	float:left;
+	margin-right:10px;
+	/*width:auto;*/
+	width: 280px;
+}
+
+.detail{
+	width:260px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	padding:7px 8px;
+	margin:0;
+	display:block;
+	border-radius:5px 5px 5px 5px;
+	background:#E9E9E9;
+	border:1px solid #CCC;
+	
+	
+}
+
+.mess{
+	width:450px;
+	max-width:450px;
+	height:180px;
+	overflow:auto;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	padding:7px 8px;
+	line-height:1em;
+	margin:0;
+	display:block;
+	border-radius:5px 5px 5px 5px;
+	background:#E9E9E9;
+	border:1px solid #CCC;
+}
+
+
+.detail:focus{
+	background-color:#FFF;
+	border:1px solid #999;
+	outline:none;
+}
+
+
+.mess:focus{
+	background-color:#FFF;
+	border:1px solid #999;
+	outline:none;
+}
+
+
+#form .row .content {
+	color:#999;
+	font-size:11px;
+	font-style:italic;
+	line-height:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	width:200px;
+	float:left;
+	
+}
+#comments_form #submit {
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top:10px;
+	margin-left:200px;
+	color:#000;
+	font-size:16px;
+	text-shadow:1px 1px 1px #999;
+	padding:10px;
+	margin-bottom:5px;
+}
+
+#form #comments_form .row .input .error {
+	color:#000;
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	background-image:url(../store/contact/images/x.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-top:6px;
+	padding-left:25px;
+
+}
