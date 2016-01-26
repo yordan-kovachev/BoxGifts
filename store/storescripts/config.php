@@ -38,10 +38,10 @@ define('COPYRIGHT', 'Copyright & Copy;' .date("Y") .' Box Gifts LTD. All rights 
 * All settings are constants so they are available within the global scope of the script
 */
 
-define('DB_HOST', 'mysql.kovachev.dreamhosters.com');
-define('DB_NAME', 'kovachev_dreamhosters_co');
-define('DB_USER', 'kovachevdreamhos');
-define('DB_PASS', 'k3TmK###');
+define('DB_HOST', 'mysql.boxgifts.yordan.co.uk');
+define('DB_NAME', 'boxgifts_yordan_co');
+define('DB_USER', 'boxgiftsyordan');
+define('DB_PASS', 'k3#T#mK#');
 define('DB_PREFIX', '');
 $db_Prefix = DB_PREFIX;
 // Take the DB_PREFIX constant and assign it into a variable with global scope for convenience.
