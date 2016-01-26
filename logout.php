@@ -11,7 +11,7 @@ session_start();
 $_SESSION = array();
 session_destroy();
 unset($_SESSION);
-echo "You have been logged out. Bye bye.";
+echo "You have been successfully logged out!";
 header("refresh: 2; url='html/index.html'");
 exit;
 ?>

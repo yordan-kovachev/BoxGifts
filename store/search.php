@@ -40,7 +40,7 @@ foreach ($products as $product)
 } 
 else
 {
-echo "There are no products in the database.";
+echo "No products are found.";
 }
 ?>
 </table>
@@ -49,7 +49,7 @@ echo "There are no products in the database.";
 else
 {
 	?>
-<form name="searchform" action="<?php echo $_SERVER['file:///Macintosh HD/Applications/MAMP/htdocs/PHP_SELF']; ?>" method="POST" />
+<form name="searchform" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" />
 <input type="text" name="searchInput" value="<?php echo $searchInput; ?>" />
 <input type="submit" name="search" value="Search Products" />
 </form>

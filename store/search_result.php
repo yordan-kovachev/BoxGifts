@@ -42,7 +42,7 @@ foreach ($products as $product)
 <td><?php echo $product['productPrice']; ?></td>
 </tr>
 <tr>
-<td>There are a total of <?php echo $productCount; ?> in the database.</td>
+<td>There are a total of <?php echo $productCount; ?> products under this category.</td>
 </tr>
 <?php
 

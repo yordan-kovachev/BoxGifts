@@ -22,8 +22,8 @@ if (isset($_POST['pid'])){
 	$i = 0;
 	//if the cart session variable is not set or cart arrray is empty
 	if(!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"]) < 1) {
-	//Now create a multy dimensional array where it will hold information for each product id an dit s quantity
-	//first thing first - run if the cart is empty or not set with product
+	//Now create a multy dimensional array where it will hold information for each product id and its quantity
+	//first thing first - run following code if the cart is empty or not set with product
 	$_SESSION["cart_array"] = array(0 => array("item_id" => $pid, "quantity" => 1));
 	}else{
 	//run if the cart has at least one product added by the customer

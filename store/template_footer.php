@@ -6,7 +6,7 @@ date created: 03/2012
 <div id="pageFooter">
   <table width="920px" border="1" align="center">
     <tr>
-      <td width="119" height="56" align="center"><a href="http://kovachev.dreamhosters.com/store/contact.php">Contact us</a></td>
+      <td width="119" height="56" align="center"><a href="http://boxgifts.yordan.co.uk/store/contact.php">Contact us</a></td>
       <td width="80" align="center"><a href="#">FAQ</a></td>
       <td width="165" align="center"><a href="#">Terms &amp; Conditions</a></td>
       <td width="105" align="center"><a href="#">Delivery</a></td>
