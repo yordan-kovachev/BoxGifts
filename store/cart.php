@@ -5,7 +5,7 @@
 *date created: 04/2012
 */
 //Start new session - this will help the url remember what has been added as a product to the cart
-session_start();
+//session_start();
 //Now establish DB connection
 ///
 include_once('storescripts/config.php');
