@@ -3,11 +3,13 @@
 author name: Yordan Kovachev
 author id: abdt361
 date created: 02/2012
-*/ 
-//Start a new session
-session_start();
+*/
 // Enable output buffering for PHP 5
 ob_start();
+//save sessions in tmp folder located in root of project
+ini_set('session.save_path', 'boxgiftsession');
+//Start a new session with duration of 1 day on cookie life span
+session_start();
 /**
 * Configuration file for BoxGifts
 * @author Yordan Kovachev <yordan.kovachev@gmail.com>
